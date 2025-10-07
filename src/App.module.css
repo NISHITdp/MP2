@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  .link {
+    text-decoration: none;
+    color: #0b1b34;
+  }
+  .link:hover { text-decoration: underline; }
+  

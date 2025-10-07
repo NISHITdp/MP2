@@ -1,0 +1,6 @@
+.main { padding: 16px; }
+.article { display: grid; gap: 16px; max-width: 720px; }
+.header { display: flex; align-items: center; gap: 16px; }
+.thumb { image-rendering: pixelated; }
+.stats { padding-left: 16px; }
+.buttons { display: flex; gap: 12px; }
