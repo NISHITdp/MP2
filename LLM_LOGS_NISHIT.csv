@@ -1,0 +1,4 @@
+date,user_query,assistant_response,notes
+2025-10-07,TS2802 on GalleryPage: Set<string> iteration not allowed with current target.,"Likely a TypeScript target issue. Two quick fixes: (a) raise the TS target/enable downlevel iteration, or (b) convert the Set to an array before iterating. Either approach resolves it.",Used Array.from(selected) to iterate safely.
+2025-10-07,git push origin main → 'origin' does not appear to be a git repository.,"You need to add a remote that points to your GitHub repo, then push the main branch. Verify with a quick remote listing afterward.",Added origin; initial push triggered the workflow.
+2025-10-07,GitHub Pages deploy failed: Invalid URL in package.json homepage.,Ensure homepage is a valid GitHub Pages URL (no placeholders/extra dots) and that the router basename matches the repo name.,Corrected homepage + basename; deploy succeeded.
